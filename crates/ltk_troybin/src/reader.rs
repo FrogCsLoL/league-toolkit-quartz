@@ -1,4 +1,6 @@
 //! Binary reader for INIBIN v1 and v2 (troybin) files.
+//!
+//! Format based on Leischii's TroybinConverter and Rey's TroybinEditor.
 
 use std::io::{self, Cursor, Read};
 
